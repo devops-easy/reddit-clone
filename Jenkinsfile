@@ -28,10 +28,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube-Server') {
                     sh '''$SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Reddit-Clone-CI \
-		    -Dsonar.projectKey=Reddit-Clone-CI \
-                    -Dsonar.sources=. \
-                    -Dsonar.host.url=http://65.2.148.132:9000 \
-                    -Dsonar.login=sqp_0593612b9d89d93fab6f3433ab2e7782a583a072'''
+		    -Dsonar.projectKey=Reddit-Clone-CI'''
                 }
             }
         }
