@@ -1,4 +1,4 @@
-# Reddit Clone App on Kubernetes Demo
+# Reddit Clone App on Kubernetes
 Test 200
 
 
