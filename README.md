@@ -1,4 +1,4 @@
-# Reddit Clone App on Kubernetes Devops Easy
+# Reddit Clone App on Kubernetes
 Test 200
 
 
